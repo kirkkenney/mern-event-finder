@@ -1,0 +1,35 @@
+.image-upload {
+    text-align: center;
+}
+
+.image-upload-preview {
+    width: 100%;
+    text-align: center;
+}
+
+.image-upload-preview img {
+    display: block;
+    width: 98%;
+    height: auto;
+    margin: 1rem auto 0 auto;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 4px rgb(34, 3, 31);
+}
+
+@media only screen and (min-width: 600px) {
+    .image-upload-preview img {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .image-upload-preview img {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .image-upload-preview img {
+        width: 40%;
+    }
+}

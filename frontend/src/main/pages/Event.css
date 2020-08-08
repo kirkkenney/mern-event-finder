@@ -1,0 +1,76 @@
+.event-page {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(34, 3, 31);
+}
+
+.map-container {
+    width: 100%;
+    margin: auto;
+    height: 15rem;
+}
+
+.event-body {
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.event-body h2,
+.event-body p {
+    margin: 1rem auto;
+}
+
+.event-body h2 a {
+    color: inherit;
+    cursor: pointer;
+}
+
+.event-body h3 {
+    font-weight: 200;
+    margin: 1.5rem 0;
+}
+
+.action-buttons {
+    width: auto;
+    margin: auto 5% auto auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 600px) {
+    .action-buttons {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .map-container {
+        text-align: center;
+        width: 80%;
+    }
+
+    .event-body {
+        width: 80%;
+    }
+
+    .action-buttons {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .map-container {
+        width: 60%;
+        height: 20rem;
+    }
+
+    .event-body {
+        width: 60%;
+    }
+
+    .action-buttons {
+        width: 25%;
+    }
+}

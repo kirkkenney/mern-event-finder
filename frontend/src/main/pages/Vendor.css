@@ -1,0 +1,14 @@
+.vendor-events {
+    text-align: center;
+}
+
+@media only screen and (min-width: 880px) {
+    .vendor-event-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+}

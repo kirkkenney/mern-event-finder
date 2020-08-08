@@ -1,0 +1,71 @@
+.form-control {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea,
+.form-control small {
+    display: block;
+}
+
+.form-control label {
+    margin-bottom: .5rem;
+    /* color: var(--blue); */
+    color: rgb(34, 3, 31);
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+    font-size: 1.1rem;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: .2rem .4rem;
+    border-radius: .5rem;
+    background: var(--light-pink);
+    /* color: var(--purple); */
+    color: rgb(34, 3, 31);
+    /* border: solid 1px var(--purple); */
+    border: solid 1px rgb(34, 3, 31);
+    width: 100%;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+    outline: none;
+    /* border: solid 1px var(--purple); */
+    border: solid 1px rgb(34, 3, 31);
+    /* border-left: solid 10px var(--purple); */
+    border-left: solid 10px rgb(34, 3, 31);
+    background: rgba(34, 3, 31, .2);
+}
+
+.form-control small {
+    color: rgb(204, 25, 25);
+    font-size: .8rem;
+    margin-top: .3rem;
+}
+
+.input-error input,
+.input-error textarea {
+    border: solid 1px rgb(204, 25, 25);
+    box-shadow: 1px 1px 3px rgb(204, 25, 25);
+    background: rgb(253, 172, 172);
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+    width: 100%;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__month-container,
+.react-datepicker__day-name,
+.react-datepicker__day {
+    text-align: center !important;
+} 

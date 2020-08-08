@@ -1,0 +1,14 @@
+.main-header {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0);
+    align-items: center;
+    z-index: 150;
+}
+
+.main-header a {
+    color: var(--light-pink);
+}

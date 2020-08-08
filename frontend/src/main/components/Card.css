@@ -1,0 +1,132 @@
+.event-card {
+    background: rgba(34, 3, 31, .1);
+    color: rgb(34, 3, 31);
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    border-top: solid 1px rgb(34, 3, 31);
+    border-bottom: solid 1px rgb(34, 3, 31);
+    text-align: left;
+}
+
+.card-top,
+.card-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-head,
+.card-footer-details {
+    width: 55%;
+}
+
+.card-head h1 {
+    font-size: 1.4rem;
+}
+
+.card-head h2 {
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    font-weight: 100;
+}
+
+.card-head h2 a {
+    cursor: pointer;
+    color: inherit;
+}
+
+.card-header h2 a:hover {
+    color: rgb(35, 181, 211);
+}
+
+.card-img-container,
+.card-footer-action {
+    width: 40%;
+    text-align: right;
+}
+
+
+.card-img-container img {
+    /* max-width: 90%;
+    height: auto; */
+    height: 4rem;
+    width: auto;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 4px rgb(34, 3, 31);
+}
+
+.card-body {
+    margin: .5rem 0;
+    width: 100%;
+    font-size: .9rem;
+}
+
+.card-footer-details p {
+    font-size: .7rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .card-img-container img {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .event-card {
+        width: 95%;
+        border: solid 1px rgb(34, 3, 31);
+        padding: 1rem 3rem;
+        border-radius: 1rem;
+    }
+
+    /* .card-head h1 {
+        font-size: 1.6rem;
+    } */
+    
+    .card-head h2 {
+        font-size: 1rem;
+        margin-top: .5rem;
+        font-weight: 100;
+    }
+
+    .card-body {
+        font-size: .85rem;
+    }
+
+    .card-img-container img {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    .event-card {
+        width: 46%;
+        margin: 1rem .5rem;
+    }
+
+    .card-head h1 {
+        font-size: 1.4rem;
+    }
+
+    .card-img-container img {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .event-card {
+        padding: .5rem 3rem;
+    }
+
+    .card-img-container img {
+        max-width: 40%;
+    }
+
+    .card-footer-details p {
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,20 @@
+p {
+    font-size: .9rem;
+    margin: .5rem auto;
+}
+
+.checkbox-control {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.checkbox-control label {
+    margin-left: .5rem;
+}
+
+.checkbox-control label,
+.checkbox-control input{
+    font-size: 1.2rem;
+    display: inline-block;
+}

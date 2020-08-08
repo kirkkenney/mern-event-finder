@@ -1,0 +1,42 @@
+.form-container {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    color: rgb(34, 3, 31);
+}
+
+.form-container h1 {
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-card {
+    width: 88%;
+    margin: 2rem auto;
+    background: rgba(222, 195, 190, .8);
+    border-radius: 1rem;
+    box-shadow: inset 1px 1px 3px rgb(34,3,31),
+    3px 3px 8px rgb(34, 3, 31);
+}
+
+p {
+    text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+    .form-card {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .form-card {
+        width: 60%;
+    }
+}

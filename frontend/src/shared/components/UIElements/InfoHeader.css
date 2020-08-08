@@ -1,0 +1,10 @@
+.info-header {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(34, 3, 31);
+}
+
+.info-header h1 {
+    margin-bottom: 2rem;
+}

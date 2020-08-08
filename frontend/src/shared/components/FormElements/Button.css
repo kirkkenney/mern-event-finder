@@ -1,0 +1,45 @@
+.button {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem auto;
+    display: inline-block;
+    box-shadow: 1px 1px 4px rgb(34, 3, 31);
+    background: rgb(35, 181, 211);
+    color: rgb(34, 3, 31);
+}
+
+.button-inverse {
+    /* background: rgba(255, 255, 255, 0); */
+    background: rgba(34, 3, 31, .05);
+    color: rgb(35, 181, 211);
+    border: solid 1px rgb(35, 181, 211);
+    font-weight: 900;
+}
+
+.button:active {
+    transform: translateY(3px) translateX(2px);
+}
+
+.button-small {
+    font-size: .8rem;
+    padding: .5rem 1rem;
+}
+
+.button-large {
+    font-size: 2rem;
+}
+
+.button-danger {
+    /* background: rgb(243, 74, 74); */
+    background: rgb(217, 30, 54);
+    box-shadow: 1px 1px 4px rgb(34, 3, 31);
+    color: rgb(222, 195, 190);
+}
+
+.button:disabled {
+    opacity: 0.6;
+}
